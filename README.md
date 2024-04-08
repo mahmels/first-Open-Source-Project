@@ -1,3 +1,5 @@
+01613496, Mahmoud El-Sayed
+
 # Math Functions
 
 This repository contains three simple math functions implemented in Python.
