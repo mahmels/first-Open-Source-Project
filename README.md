@@ -1,6 +1,6 @@
 # Math Functions
 
-This repository contains two simple math functions implemented in Python.
+This repository contains three simple math functions implemented in Python.
 
 ## Functions
 
