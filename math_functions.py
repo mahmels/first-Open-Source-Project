@@ -5,7 +5,7 @@ def calculate_mean(a, b):
     :param b: second
     :return: mean
     """
-    return float(a + b) / 2
+    return float(a + b) / 3
 
 
 def calculate_power(base, exp):
