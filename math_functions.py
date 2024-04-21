@@ -1,28 +1,29 @@
-def calculate_mean(a, b):
-    """
-    calculate the mean of a and b
-    :param a: first
-    :param b: second
-    :return: mean
-    """
-    return float(a + b) / 2
+import parser 
 
-
-def calculate_power(base, exp):
+def  calculate_mean(a, b):
     """
-    calculate the power of a raised to the given exponent
-    :param base: base
-    :param exp: exponent
-    :return: power
-    """
-    return base ** exp
+    Calculate the mean of a and b.
 
-
-def is_prime(num):
+    :param a: First number
+    :param b: Second number
+    :return: Mean
     """
-    check if num is prime
-    :param num: number to be checked
-    :return: true if num is prime, false otherwise
+    return       float(a + b) / 3
+def  calculate_power(base, exp):
+    """
+    Calculate the power of a raised to the given exponent.
+
+    :param base: Base
+    :param exp: Exponent
+    :return: Power
+    """
+    return      base ** exp
+def  is_prime(num):
+    """
+    Check if num is prime.
+
+    :param num: Number to be checked
+    :return: True if num is prime, False otherwise
     """
     if num <= 1:
         return False
@@ -35,4 +36,4 @@ def is_prime(num):
         if num % i == 0 or num % (i + 2) == 0:
             return False
         i += 6
-    return True
+    return      True
